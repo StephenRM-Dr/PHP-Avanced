@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mi</title>
-</head>
-<body>
-    <ul>
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/post.php">post</a></li>
-        <li><a href="/about.php">Sobre mi</a></li>
-        <li><a href="/links.php">proyectos</a></li>
-        <li><a href="/blog.php">blogs</a></li>
-    </ul>
+<?php
 
-    <h1>Sobre mi</h1>
-</body>
-</html>
+
+$title = 'Sobre mi';
+
+require __DIR__ . '/resources/about.template.php';

@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyectos</title>
-</head>
-<body>
-    <ul>
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/post.php">post</a></li>
-        <li><a href="/about.php">Sobre mi</a></li>
-        <li><a href="/links.php">proyectos</a></li>
-        <li><a href="/blog.php">blogs</a></li>
-    </ul>
+<?php
 
-    <h1>Proyectos</h1>
-</body>
-</html>
+
+$title = 'Proyectos';
+
+require __DIR__ . '/resources/links.template.php';
