@@ -11,6 +11,7 @@
         <li><a href="/post.php">post</a></li>
         <li><a href="/about.php">Sobre mi</a></li>
         <li><a href="/links.php">proyectos</a></li>
+        <li><a href="/blog.php">blogs</a></li>
     </ul>
 
     <h1>Post</h1>
